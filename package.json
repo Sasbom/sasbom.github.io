@@ -1,0 +1,19 @@
+{
+  "name": "sassy_site",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasbom/sasbom.github.io.git"
+  },
+  "author": "Sas van Gulik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sasbom/sasbom.github.io/issues"
+  },
+  "homepage": "https://github.com/Sasbom/sasbom.github.io#readme"
+}
