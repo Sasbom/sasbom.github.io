@@ -1,85 +1,77 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import MenuButton from './components/MenuButton.vue';
+import HorDiv from './components/HorDiv.vue';
+import { routerKey, RouterLink, RouterView } from 'vue-router'
+//do imports of components etc
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+<div class="fullback">
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <div class="middlesection">
+      <div class="topbar">
+        <h1 class = "resizetext"> [ WELCOME TO THE SAS ZONE ] </h1>
+      </div>
+      <HorDiv/>
+      <div class="topbar">
+        <MenuButton title="HOME | INFO" :isrouter="true" route="/" />
+        <MenuButton title="SHOWREEL" :isrouter="true" route="/Sas_van_Gulik/reel"/>
+        <MenuButton title="SKILLS" :isrouter="true" route="/Sas_van_Gulik/skills" />
+        <MenuButton title="WHERE TO FIND ME" :isrouter="true" route="/Sas_van_Gulik/external" />
+      </div>
+      <HorDiv/>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+      <RouterView></RouterView>
+  </div>
 
-  <RouterView />
+</div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+.fullback
+{
+    display:flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150vh;
+    background-color:rgb(216, 216, 216);
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
+.middlesection
+{
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    position:absolute;
+    top:0;
+    left:20%;
+    width:60%;
+    height: 100%;
     display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+    align-items: top;
+    background-color: rgb(248, 248, 248);
 }
+
+.topbar
+{
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-evenly;
+    width:100%;
+    height:fit-content;
+    flex-direction:row;
+    background-color: rgb(248, 248, 248);
+
+}
+
+.resizetext
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 </style>
