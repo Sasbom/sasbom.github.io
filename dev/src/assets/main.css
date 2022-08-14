@@ -14,6 +14,6 @@ body
 
 @media (max-width: 1024px) {
     body {
-        font-size:medium;
+        font-size:0.85vw;
     }
 }
