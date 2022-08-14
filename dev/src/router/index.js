@@ -40,7 +40,7 @@ const router = createRouter({
       //empty router.
       path: '/',
       name: 'None',
-      redirect: '/Sas_van_Gulik/home'
+      component: HomeView
     },
   ]
 })
