@@ -56,7 +56,7 @@ export default {
     <div class = "tpbar">
         <template v-for="item in logolist">
           <div class = "under">
-            <img v-bind:src="'/src/images/logos/'+item.image" width="80" height = "80">
+            <img v-bind:src="'https://sasbom.github.io/dev/src/images/logos/'+item.image" width="80" height = "80">
             <a>{{ item.text }}</a>
           </div>
         </template>
