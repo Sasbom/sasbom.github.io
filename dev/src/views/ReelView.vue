@@ -17,7 +17,7 @@ export default {
     <div class = "centerdiv">
     <h2>- [ SHOWREEL 2022 : SHORT VERSION ] -</h2>
     <HorDiv /><br>
-    <iframe src="https://player.vimeo.com/video/657786500?h=452969712a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Sas van Gulik - TD/Houdini Reel"></iframe>
+    <iframe class="size_movie" src="https://player.vimeo.com/video/657786500?h=452969712a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Sas van Gulik - TD/Houdini Reel"></iframe>
     </div>
     </div>
 
@@ -25,7 +25,7 @@ export default {
     <div class = "centerdiv">
     <h2>- [ SHOWREEL END 2021 : LONG VERSION ] -</h2>
     <HorDiv /><br>
-    <iframe src="https://player.vimeo.com/video/634471170?h=0b5ad5609d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Sas van Gulik - Houdini / Tech art progress reel 2021"></iframe>
+    <iframe class="size_movie" src="https://player.vimeo.com/video/634471170?h=0b5ad5609d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Sas van Gulik - Houdini / Tech art progress reel 2021"></iframe>
     </div>
     </div>
     <br>
@@ -71,4 +71,11 @@ export default {
 	max-width: 100%;
   display: block;
 }
+
+.size_movie
+{
+  width : 60vw;
+  height : 30vw;
+}
+
 </style>
