@@ -6,8 +6,8 @@ import HorDiv from "../components/HorDiv.vue";
   <div class = "tpbar">
   <div class = "centerdiv">
   <h2>Sas van Gulik</h2>
-  <a>Tech art - VFX - Junior Technical Director - SideFx Educator in training</a>
-  <a>- HKU 3D animation graduate 2021 -</a><br>
+  <a>Tech art - VFX - Junior Technical Director </a>
+  <a>- HKU 3D animation graduate 2021 - SideFx Educator in training -</a><br>
   <a>🇳🇱: hen / hun , zij / haar | 🇬🇧: they / them , she / her </a><br>
   <HorDiv/>
   <br>

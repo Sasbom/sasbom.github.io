@@ -11,7 +11,7 @@ import { routerKey, RouterLink, RouterView } from 'vue-router'
 
   <div class="middlesection">
       <div class="topbar">
-        <h1 class = "resizetext"> [ WELCOME TO THE SAS ZONE ] </h1>
+        <h1 style="font-size:3.5vw" class = "resizetext"> [ WELCOME TO THE SAS ZONE ] </h1>
       </div>
       <HorDiv/>
       <div class="topbar">
@@ -72,6 +72,23 @@ import { routerKey, RouterLink, RouterView } from 'vue-router'
 {
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+@media (max-width: 1024px) {
+    .middlesection
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position:absolute;
+        top:0;
+        left:0%;
+        width:100%;
+        height: 100%;
+        display: flex;
+        align-items: top;
+        background-color: rgb(248, 248, 248);
+    }
 }
 
 </style>
