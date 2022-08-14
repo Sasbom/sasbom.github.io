@@ -157,6 +157,15 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size:75%;
+}
+@media (max-width: 1024px) {
+.under
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size:1.5vw;
+}
 }
 </style>
