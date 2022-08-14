@@ -56,7 +56,7 @@ export default {
     <div class = "tpbar">
         <template v-for="item in logolist">
           <div class = "under">
-            <img v-bind:src="'https://sasbom.github.io/dev/src/images/logos/'+item.image" width="80" height = "80">
+            <img class="imgstyle" v-bind:src="'https://sasbom.github.io/dev/src/images/logos/'+item.image">
             <a>{{ item.text }}</a>
           </div>
         </template>
@@ -148,8 +148,8 @@ export default {
 }
 
 .imgstyle{
-  width : 50px;
-  height : 50px;
+  width : 5vw;
+  height : 5vw;
 }
 
 .under
@@ -157,6 +157,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size:75%;
+    font-size:1.5vw;
 }
 </style>
