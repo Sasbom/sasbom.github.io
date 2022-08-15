@@ -13,7 +13,7 @@ import HorDiv from "../components/HorDiv.vue";
   <br>
   <a><b>CONTACT INFO</b></a><br>
   <a>T: +31 6 - 11 86 88 33</a>
-  <a>A: Utrecht, Bisschopssteeg 589</a><br>
+  <a>A: I'm based in Utrecht, the Netherlands.</a><br>
   <a>Business inquiries: saskervg@live.nl</a>
   <a>HKU related inquiries: sas.vangulik@hku.nl</a><br>
   <a>Discord: Sasbom#3079</a><br>
