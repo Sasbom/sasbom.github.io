@@ -19,7 +19,7 @@ import HorDiv from "../components/HorDiv.vue";
   <a>Discord: Sasbom#3079</a><br>
   <HorDiv/><br>
   <a><b>I AM OPEN FOR WORK!</b></a><br>
-  <a>Currently I work parttime at HKU, Utrecht University of Arts,</a>
+  <a>Currently I work part-time at HKU, Utrecht University of Arts,</a>
   <a>as a media wide teacher, primarily supervising 3D animation.</a>
   <a>I am looking for a part-time job, focussed on VFX with Houdini,</a>
   <a>and/or Jr. Technical Director work.</a>
