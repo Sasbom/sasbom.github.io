@@ -21,7 +21,7 @@ import HorDiv from "../components/HorDiv.vue";
   <a><b>I AM OPEN FOR WORK!</b></a><br>
   <a>Currently I work parttime at HKU, Utrecht University of Arts,</a>
   <a>as a media wide teacher, primarily supervising 3D animation.</a>
-  <a>I am looking for a parttime job, focussed on VFX with Houdini,</a>
+  <a>I am looking for a part-time job, focussed on VFX with Houdini,</a>
   <a>and/or Jr. Technical Director work.</a>
   <br>
   <HorDiv/><br>
